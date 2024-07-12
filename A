@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психолог [Твоє Ім'я]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #d3e4cd;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #354f52;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #354f52;
+            text-decoration: none;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #52796f;
+        }
+        footer {
+            background-color: #d3e4cd;
+            padding: 20px;
+            text-align: center;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            background-color: #52796f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Психолог [Твоє Ім'я]</h1>
+        </header>
+        <nav>
+            <a href="#articles">Статті</a>
+            <a href="#about">Про мене</a>
+            <a href="#podcasts">Підкасти</a>
+            <a href="#lectures">Лекції</a>
+            <a href="#recommendations">Рекомендації</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+        <section id="articles">
+            <h2>Психологічні статті</h2>
+            <p>[Тут буде список статей]</p>
+        </section>
+        <section id="about">
+            <h2>Про мене</h2>
+            <p>[Твоя особиста історія]</p>
+        </section>
+        <section id="podcasts">
+            <h2>Підкасти</h2>
+            <p>[Тут буде список підкастів]</p>
+        </section>
+        <section id="lectures">
+            <h2>Лекції</h2>
+            <p>[Тут буде список лекцій]</p>
+        </section>
+        <section id="recommendations">
+            <h2>Рекомендації фільмів і книг</h2>
+            <p>[Тут буде список рекомендацій]</p>
+        </section>
+        <section id="gallery">
+            <h2>Галерея зображень</h2>
+            <p>[Тут буде галерея зображень]</p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Повідомлення:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Надіслати</button>
+                </form>
+            </div>
+        </section>
+        <section id="consultation">
+            <h2>Запис на консультацію</h2>
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="date">Дата:</label>
+                    <input type="date" id="date" name="date" required>
+                    <button type="submit">Записатися</button>
+                </form>
+            </div>
+        </section>
+        <section id="shop">
+            <h2>Покупки</h2>
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <label for="product">Товар:</label>
+                    <input type="text" id="product" name="product" required>
+                    <label for="quantity">Кількість:</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                    <button type="submit">Придбати</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>© 2024 Психолог [Твоє Ім'я]. Всі права захищені.</p>
+            <p>Соціальні мережі: [Твої соціальні мережі]</p>
+        </footer>
+    </div>
+</body>
+</html>
